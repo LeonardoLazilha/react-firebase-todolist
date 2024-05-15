@@ -1,0 +1,92 @@
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.home-container h1{
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.home-container span{
+  margin-bottom: 28px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 500px;
+}
+
+.form input{
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 8px;
+  transition: box-shadow 0.3s ease; 
+}
+
+.form input:focus {
+  box-shadow: 0px 0px 55px -5px rgba(93,211,243,1);
+}
+
+
+.form button{
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: #5DD3F3;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease; 
+
+}
+
+.form button:hover{
+  background-color: #50bbd8;
+}
+
+.form button:active{
+  background-color: #79b1c0;
+}
+
+.form button:focus{
+  box-shadow: 0px 0px 79px -15px rgb(255, 255, 255);
+}
+
+.form textarea{
+  margin-bottom: 12px;
+  padding: 8px;
+  border: none;
+  height: 90px;
+  resize: none;
+  border-radius: 4px;
+}
+
+.btn-link {
+  color: #2491af;
+  text-decoration: none;
+  margin: 14px 0;
+  font: 14px;
+  font-family: "Ubuntu", sans-serif;
+  transition: color 0.2s ease;
+}
+
+.btn-link:hover {
+  color: #79b1c0;
+  text-decoration: underline;
+}
+
+.btn-link:active {
+  color: #b6e0ff;
+}
+

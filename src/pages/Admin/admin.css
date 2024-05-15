@@ -1,0 +1,66 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.admin-container h1{
+  margin-bottom: 28px;
+}
+
+.btn-save{
+  margin-bottom: 28px;
+}
+
+.list {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(33, 35, 38);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  justify-content: center;
+  padding: 14px 8px;
+}
+
+.list p{
+  margin-bottom: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.list button{
+  margin-right: 8px;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.btn-delete{
+  color: #5DD2F3;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.logout{
+  position: fixed;
+  bottom: 9%;
+  left: 4%;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  background-color: #FF6961;
+  color: #fff;
+  transition: background-color 0.1s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.logout:hover{
+  background-color: #E2504C;
+  transform: scale(1.1);
+  box-shadow: -1px 1px 42px 0px rgba(255,105,97,0.41);
+}
+
+.logout:active{
+  background-color: #C63637;
+}
